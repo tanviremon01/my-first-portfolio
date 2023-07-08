@@ -45,9 +45,10 @@ nav a{
 /* header related */
 .header-class{
     background: #FFF8F3;
-    background-image:url('../images/header_bg.png') ;
+    background-image:url('../images/header_bg.png'),
+    url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right ;
+    background-position: bottom right, top left;
     
 }
 .banner{
@@ -200,9 +201,7 @@ form{
     margin-left: 160px;
 }
 
-.c{
-height: 500px;
-}
+
 #cp{
  text-align: center;
  padding-top: 30px;
