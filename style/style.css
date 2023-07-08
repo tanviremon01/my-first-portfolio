@@ -179,3 +179,34 @@ line-height: 28px;
     text-align: center;
     margin-top: 60px;
 }
+footer{
+ display: flex;
+ gap: 100px;
+ background-color: #FFF8F3; 
+ margin-top: 100px;
+padding: 130px 200px;
+}
+.footer-col{
+    width: 50%;
+}
+
+.y{
+    margin-bottom: 12px;
+}
+#x{
+    display: grid;
+}
+form{
+    margin-left: 160px;
+}
+
+.c{
+height: 500px;
+}
+#cp{
+ text-align: center;
+ padding-top: 30px;
+ padding-bottom: 30px;
+
+ background: rgb(219, 199, 197) ;
+}
