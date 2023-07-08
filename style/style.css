@@ -8,7 +8,7 @@ nav{
     justify-content: space-between;
 }
 body{
-    font-family: 'Open Sans', sans-serif;
+    font-family: no;
 }
 .text-primary{
     color: rgb(174, 42, 45);
@@ -89,18 +89,19 @@ main{
     border-radius: 10px;
     background: #FFF8F3;
     padding: 132px;
-    margin-top: 140px ;
+    margin-top: 120px ;
 }
 .section-titie{
     color: #621c2e;
 text-align: center;
 font-size: 35px;
 font-weight: 700;
+margin-bottom: 40px;
 }
 .sec-des{
     color: #575454;
     text-align: center;
-    font-size: 18px;
+    font-size: 22px;
 
 }
 .about-info-container{
@@ -109,7 +110,7 @@ font-weight: 700;
     margin-top: 20px;
 }
 .info-title{
-    font-weight: lighter;
+    font-weight: bold;
     margin-bottom: 5px;
     font-weight: normal;
 }
@@ -118,4 +119,39 @@ font-weight: 700;
 .info-description{
     font-size: 18px;
     text-align: center;
+    font-weight: bolder;
 }
+#widd{
+    padding: 132px;
+}
+.sec-w{
+    color: #621c2e;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+.skills-con{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.skill{
+    color: rgb(189, 111, 9);
+     padding: 30px;
+     border-radius: 15px;
+background: #2f2c2c;
+box-shadow: 0px 6px 50px 0px rgba(74, 63, 63, 0.436);
+}
+.skill-des{
+   padding-top: 16px;
+   color: antiquewhite;
+}
+.res-col-ti{
+    color: #0f0e0e;
+font-size: 30px;
+font-weight: 700;
+}
+
